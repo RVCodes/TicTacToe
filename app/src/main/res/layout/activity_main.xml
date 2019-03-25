@@ -133,30 +133,30 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_00"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_01"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_02"
                 android:background="@drawable/button_empty"/>
         </LinearLayout>
         <LinearLayout
@@ -172,30 +172,30 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_10"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_11"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_12"
                 android:background="@drawable/button_empty"/>
         </LinearLayout>
         <LinearLayout
@@ -211,30 +211,30 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_20"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_21"
                 android:background="@drawable/button_empty"/>
             <Button
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text=""
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#fff"
+                android:id="@+id/btn_22"
                 android:background="@drawable/button_empty"/>
         </LinearLayout>
     </RelativeLayout>
@@ -251,6 +251,7 @@
             android:background="@drawable/button_reset"
             android:drawableLeft="@drawable/ic_sync_black_24dp"
             android:text="RESET"
+            android:id="@+id/btn_reset"
             android:drawablePadding="10dp"
             android:textSize="20sp"
             android:textColor="#fff"
